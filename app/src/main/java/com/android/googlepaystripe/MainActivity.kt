@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btn = findViewById(R.id.btnGooglePay)
-        PaymentConfiguration.init(this, "pk_test_51I76rQGM863lNCUBAge1DkEAVHBHgXHrZt7rd9UPaDE4yRcZKgomOKtDsbZRM3tLKmv5TxhSyYffIDmk1CPBLbDS00o40lRqo5")
+        PaymentConfiguration.init(this, "Your publishable key")
 
         btn!!.setOnClickListener {
             payWithGoogle()
